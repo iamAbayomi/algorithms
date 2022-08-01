@@ -10,15 +10,5 @@ class Stack{
    push(item){
     this.stack.push(item)
    }
-
-
 }
 
-console.log("Hello, I am here");
-
-const stack = new Stack()
-
-stack.push("1")
-stack.push("2")
-
-console.log("stack values", stack)
